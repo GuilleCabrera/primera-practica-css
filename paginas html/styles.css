@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(52, 148, 204);
+}
+
+p{
+    color: rgb(24, 6, 6);
+    font-size: 1.5em;
+    margin: 12px;
+    
+}
+
+#TitlesP{
+    border: 2px solid black;
+    width: 97vw;
+    margin: auto;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+
+#Principal{
+    font-size: 5em;;
+    color: rgb(165, 2, 35);
+}
+
+#contenedor-tarjetas{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.Subtitulos{
+    font-size: 2.25em;
+    color: darkmagenta;
+    margin-left: 1em;
+}
+
+#Footer-id{
+    color: black;
+    font-size: x-small;
+}
+
+
+.Titles{
+    
+    font-size: 2.25em;
+    color:rgb(82, 23, 138);
+}
+
+.tamaño-deimg{
+    width: 250px;
+    height: 400px;
+}
+
+.Tarjetas{
+    border: rgb(82, 23, 138) 10px double;
+    border-radius: 5%;
+    padding: 2em;
+    width: fit-content;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.Tarjetas:hover{
+    background-color: goldenrod;
+}
+
